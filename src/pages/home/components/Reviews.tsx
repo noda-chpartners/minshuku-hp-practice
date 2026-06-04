@@ -163,8 +163,9 @@ export default function Reviews() {
             >
               <i className="ri-arrow-left-line text-sm" style={{ color: "oklch(var(--foreground-700))" }} />
             </button>
-            
+
             <div className="flex items-center gap-2">
+              
               {reviews.map((_, index) => (
                 <button
                   key={index}
